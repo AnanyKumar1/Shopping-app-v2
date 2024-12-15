@@ -1,15 +1,18 @@
 import Navigation from './customer/component/navigation/Navigation'
-import Homepage from './customer/Pages/Homepage/Homepage'
 import './App.css'
+import { Footer } from './customer/component/Footer/Footer'
+import { Product } from './customer/component/Product/product'
+// import Homepage from './customer/Pages/Homepage/Homepage';
 
 function App() {
   return (
     <div className="">
       <Navigation/>
       <div>
-        <Homepage/>
-        
+        <Product/>
+        {/* <Homepage/> */}
       </div>
+      <Footer/>
     </div>
   )
 }
